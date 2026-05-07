@@ -1,9 +1,6 @@
-PyQt6==6.7.0
-PyQt6-Qt6==6.7.0
-PyQt6-sip==13.7.0
-pyusb==1.2.1
-Pillow==10.2.0
-opencv-python==4.9.0.80
-cython==3.0.8
-colorsys
-logging
+PyQt6>=6.7.0
+PyQt6-Qt6>=6.7.0
+PyQt6-sip>=13.11.0
+pyusb>=1.2.1
+Pillow>=10.2.0
+opencv-python>=4.9.0.80
