@@ -1,0 +1,6 @@
+# ProFlow 240 Control - USB Device Access Rules
+# Jungle Leopard ProFlow 240 Watercooler
+
+# VID: 0x33C3, PID: 0x7792
+SUBSYSTEM=="usb", ATTRS{idVendor}=="33c3", ATTRS{idProduct}=="7792", MODE="0666", GROUP="dialout"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="33c3", ATTRS{idProduct}=="7792", MODE="0666", GROUP="dialout"
